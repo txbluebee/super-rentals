@@ -1,5 +1,20 @@
 @import 'bootstrap';
 @import 'rental.scss';
+$primary-color: #1C6E8C;
+$secondary-color: #8FB339;
+
+.link-to-rental {
+
+}
+
+a {
+  font-family: sans-serif;
+  color: $primary-color;
+  &:hover,
+  &:focus,
+  &:active {color: $secondary-color;}
+}
+
 
 .rental-tile {
   margin-bottom: 15px;
